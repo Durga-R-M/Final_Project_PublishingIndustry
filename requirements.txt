@@ -4,6 +4,5 @@ joblib
 mysql.connector
 datetime
 numpy
-matplotlib.pyplot 
 seaborn
 tensorflow
