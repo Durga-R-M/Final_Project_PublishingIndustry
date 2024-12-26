@@ -26,17 +26,6 @@ elif r == 'Customer Churn Prediction':
     left_column, right_column = st.columns(2)
     p1 = left_column.slider("How many days has the customer been buying books?", 0, 1200)
     p2 = right_column.slider("How many days has the customer not returned to the shop?", 0, 1200)
-    """
-    days = [str(day) for day in range(1, 32)]
-    p3 = left_column.selectbox("Select the day the customer ordered?", days)
-    
-    months = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 
-              'August', 'September', 'October', 'November', 'December')
-    s4 = right_column.selectbox("Select the month the customer ordered?", months)
-    p4 = months.index(s4) + 1
-    
-    years = [str(year) for year in range(1970, 2025)]
-    p5 = left_column.selectbox("Select the year the customer ordered?", years)"""
     
     # Date input field
     selected_date = left_column.date_input("Select an order date")
