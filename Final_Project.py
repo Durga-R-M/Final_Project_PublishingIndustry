@@ -4,6 +4,8 @@ import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import load_model
 import os
+from PIL import Image
+
 
 # Sidebar navigation
 r = st.sidebar.radio('Main Menu', ['Home', 'Customer Churn Prediction'])
@@ -11,13 +13,15 @@ r = st.sidebar.radio('Main Menu', ['Home', 'Customer Churn Prediction'])
 # Home Page
 if r == 'Home':
     st.title('BOOKSTORE - CUSTOMER CHURN PREDICTION 📚')
-    st.subheader("Data processed from the publishing industry using ANN Deep Learning")
+    st.subheader("Data has been processed from the publishing industry using ANN Deep Learning")
     st.markdown("*You can predict customer churn on the next page* 😎")
     st.image("C:/Users/hp/Desktop/Final_Project/BookStore.png")  
 
 # Customer Churn Prediction Page
 elif r == 'Customer Churn Prediction':
-    st.image("C:/Users/hp/Desktop/Final_Project/BookCover.png")  
+    image = Image.open("C:/Users/hp/Desktop/Final_Project/BookCover.png")
+    resized_image = image.resize((700, 160))  # Width: 200px, Height: 150px
+    st.image(resized_image) 
     
     left_column, right_column = st.columns(2)
     p1 = left_column.slider("How many days has the customer been buying books?", 0, 1200)
@@ -48,4 +52,4 @@ elif r == 'Customer Churn Prediction':
         if predicted_class == 0:       
             st.success("The customer has not left the store")
         else:       
-            st.success("The customer has left the store. Try to give a discount of 5%")
+            st.warning("The customer has left the store. Try to give a discount of 5% to retain the customer")
