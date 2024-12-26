@@ -24,7 +24,8 @@ People with less orders have churned
 churn quality is evenly distributed for all years
 
 ******Streamlit application link: ****
-https://durga-r-m-car-price-prediction-carprice-prediction-ui-musn3e.streamlit.app/
+https://durga-r-m-final-project-publishingindustry-final-project-1b6qyt.streamlit.app/
+
 **LinkedIn Post URL:**  https://www.linkedin.com/posts/durgarmanikandan_dear-connections-i-am-happy-to-share-my-activity-7243671515135688704-oxiS?utm_source=share&utm_medium=member_desktop
 
 
