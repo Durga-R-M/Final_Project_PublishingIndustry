@@ -15,11 +15,11 @@ if r == 'Home':
     st.title('BOOKSTORE - CUSTOMER CHURN PREDICTION 📚')
     st.subheader("Data has been processed from the publishing industry using ANN Deep Learning")
     st.markdown("*You can predict customer churn on the next page* 😎")
-    st.image("C:/Users/hp/Desktop/Final_Project/BookStore.png")  
+    st.image("BookStore.png")  
 
 # Customer Churn Prediction Page
 elif r == 'Customer Churn Prediction':
-    image = Image.open("C:/Users/hp/Desktop/Final_Project/BookCover.png")
+    image = Image.open("BookCover.png")
     resized_image = image.resize((700, 160))  # Width: 200px, Height: 150px
     st.image(resized_image) 
     
