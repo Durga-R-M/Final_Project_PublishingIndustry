@@ -41,7 +41,7 @@ elif r == 'Customer Churn Prediction':
     p7 = left_column.number_input("How many times has the customer ordered from your shop?", min_value=0, max_value=500, value=10)
     
     # Load the model
-    model = load_model('C:/Users/hp/Desktop/Final_Project/model.h5')  
+    model = load_model('model.h5')  
     
     # Prepare input data
     input_data = np.array([[float(p6), float(p2), float(p1), float(p7), int(p3), int(p4), int(p5)]])
