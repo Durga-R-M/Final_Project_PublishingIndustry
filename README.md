@@ -26,6 +26,9 @@ churn quality is evenly distributed for all years
 ******Streamlit application link: ****
 https://durga-r-m-final-project-publishingindustry-final-project-1b6qyt.streamlit.app/
 
+**Final application URL after aws deployment**
+http://3.109.158.158:8501/
+
 **LinkedIn Post URL:**  https://www.linkedin.com/posts/durgarmanikandan_dear-connections-i-am-happy-to-share-my-activity-7243671515135688704-oxiS?utm_source=share&utm_medium=member_desktop
 
 
