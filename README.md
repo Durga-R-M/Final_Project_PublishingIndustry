@@ -29,7 +29,7 @@ https://durga-r-m-final-project-publishingindustry-final-project-1b6qyt.streamli
 **Final application URL after aws deployment**
 http://3.109.158.158:8501/
 
-**LinkedIn Post URL:**  https://www.linkedin.com/posts/durgarmanikandan_dear-connections-i-am-happy-to-share-my-activity-7243671515135688704-oxiS?utm_source=share&utm_medium=member_desktop
+**LinkedIn Post URL:**  https://www.linkedin.com/posts/durgarmanikandan_final-project-demo-on-customer-churn-prediction-activity-7279020820276912128-_sZ5?utm_source=share&utm_medium=member_desktop
 
 
 
